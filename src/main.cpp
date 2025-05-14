@@ -1,5 +1,6 @@
 #include <iostream>
 #include "SystemInfo.hpp"
+#include <CPUMonitor.hpp>
 
 int main() {
     std::cout << "====================\n";
@@ -8,6 +9,11 @@ int main() {
 
     SystemInfo sys;
     sys.printSystemInfo();
+
+    CPUMonitor cpu;
+    float usage = cpu.getUsage();
+    
+    std::cout << usage << '\n';
 
     return 0;
 }

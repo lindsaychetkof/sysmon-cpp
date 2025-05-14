@@ -1,0 +1,3 @@
+/mnt/c/Users/lc252/OneDrive/Desktop/sysmon-cpp/build/CMakeFiles/sysmon.dir
+/mnt/c/Users/lc252/OneDrive/Desktop/sysmon-cpp/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/lc252/OneDrive/Desktop/sysmon-cpp/build/CMakeFiles/rebuild_cache.dir

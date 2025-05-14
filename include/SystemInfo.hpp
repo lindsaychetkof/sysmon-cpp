@@ -6,4 +6,4 @@ public:
     void printSystemInfo();
 };
 
-#endif // SYSTEM_INFO_HPP
+#endif  // SYSTEM_INFO_HPP

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/sysmon.dir/src/SystemInfo.cpp.o CMakeFiles/sysmon.dir/src/main.cpp.o -o sysmon 
