@@ -129,6 +129,30 @@ sysmon/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sysmon.dir/build.make CMakeFiles/sysmon.dir/build
 .PHONY : sysmon/fast
 
+src/CPUMonitor.o: src/CPUMonitor.cpp.o
+.PHONY : src/CPUMonitor.o
+
+# target to build an object file
+src/CPUMonitor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sysmon.dir/build.make CMakeFiles/sysmon.dir/src/CPUMonitor.cpp.o
+.PHONY : src/CPUMonitor.cpp.o
+
+src/CPUMonitor.i: src/CPUMonitor.cpp.i
+.PHONY : src/CPUMonitor.i
+
+# target to preprocess a source file
+src/CPUMonitor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sysmon.dir/build.make CMakeFiles/sysmon.dir/src/CPUMonitor.cpp.i
+.PHONY : src/CPUMonitor.cpp.i
+
+src/CPUMonitor.s: src/CPUMonitor.cpp.s
+.PHONY : src/CPUMonitor.s
+
+# target to generate assembly for a file
+src/CPUMonitor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sysmon.dir/build.make CMakeFiles/sysmon.dir/src/CPUMonitor.cpp.s
+.PHONY : src/CPUMonitor.cpp.s
+
 src/SystemInfo.o: src/SystemInfo.cpp.o
 .PHONY : src/SystemInfo.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... sysmon"
+	@echo "... src/CPUMonitor.o"
+	@echo "... src/CPUMonitor.i"
+	@echo "... src/CPUMonitor.s"
 	@echo "... src/SystemInfo.o"
 	@echo "... src/SystemInfo.i"
 	@echo "... src/SystemInfo.s"

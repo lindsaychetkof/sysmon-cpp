@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/sysmon.dir/src/CPUMonitor.cpp.o"
+  "CMakeFiles/sysmon.dir/src/CPUMonitor.cpp.o.d"
   "CMakeFiles/sysmon.dir/src/SystemInfo.cpp.o"
   "CMakeFiles/sysmon.dir/src/SystemInfo.cpp.o.d"
   "CMakeFiles/sysmon.dir/src/main.cpp.o"

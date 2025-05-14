@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/mnt/c/Users/lc252/OneDrive/Desktop/sysmon-cpp/src/CPUMonitor.cpp" "CMakeFiles/sysmon.dir/src/CPUMonitor.cpp.o" "gcc" "CMakeFiles/sysmon.dir/src/CPUMonitor.cpp.o.d"
   "/mnt/c/Users/lc252/OneDrive/Desktop/sysmon-cpp/src/SystemInfo.cpp" "CMakeFiles/sysmon.dir/src/SystemInfo.cpp.o" "gcc" "CMakeFiles/sysmon.dir/src/SystemInfo.cpp.o.d"
   "/mnt/c/Users/lc252/OneDrive/Desktop/sysmon-cpp/src/main.cpp" "CMakeFiles/sysmon.dir/src/main.cpp.o" "gcc" "CMakeFiles/sysmon.dir/src/main.cpp.o.d"
   )

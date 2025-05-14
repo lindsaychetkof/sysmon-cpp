@@ -81,12 +81,12 @@ clean: CMakeFiles/sysmon.dir/clean
 CMakeFiles/sysmon.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sysmon.dir/build.make CMakeFiles/sysmon.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sysmon.dir/build.make CMakeFiles/sysmon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/lc252/OneDrive/Desktop/sysmon-cpp/build/CMakeFiles --progress-num=1,2,3 "Built target sysmon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/lc252/OneDrive/Desktop/sysmon-cpp/build/CMakeFiles --progress-num=1,2,3,4 "Built target sysmon"
 .PHONY : CMakeFiles/sysmon.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sysmon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/lc252/OneDrive/Desktop/sysmon-cpp/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/lc252/OneDrive/Desktop/sysmon-cpp/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sysmon.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/lc252/OneDrive/Desktop/sysmon-cpp/build/CMakeFiles 0
 .PHONY : CMakeFiles/sysmon.dir/rule
